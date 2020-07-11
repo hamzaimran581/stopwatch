@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+</head>
+ <!-- <div id="clock"></div> -->
+<body style="background-color: black;">
+    <div class="main">
+        <div class="result">
+            <div>
+                <p class="num" id="minutes">0</p>
+                <p class="num">:</p>
+                <p class="num" id="second">0</p>
+                <p class="num">:</p>
+                <p class="num" id="milisecond">0</p>
+            </div>
+            <div>
+                <button type="button" id="s" class="btn btn-warning" onclick="start()">Start</button>
+                <button type="button" id="p" class="btn btn-warning" onclick="pause()">Pause</button>
+                <button type="button" class="btn btn-warning" onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
